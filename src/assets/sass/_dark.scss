@@ -1,0 +1,311 @@
+.dark {
+  // *{
+  //     color:white;
+  //     background-color: black;
+  // }
+  .wrapper {
+    background-color: #1d1c1c;
+    // background-color: #1B2430;
+  }
+  .home-information {
+    // background-color: #1d1c1c;
+    background-color: #131111;
+    opacity: 0.8;
+    color: #a57101;
+  }
+  .sale-info {
+    color: rgb(182, 182, 182);
+  }
+
+  .new-arrivals {
+    .headtext {
+      color: rgb(182, 182, 182);
+    }
+    .categories-buttons {
+      button {
+        color: rgb(182, 182, 182);
+      }
+    }
+  }
+
+  .sale-products {
+    .headtext {
+      color: rgb(182, 182, 182);
+    }
+  }
+  .hurry-up {
+    color: rgb(182, 182, 182);
+    .discount {
+      // background-color: transparent !important;
+      opacity: 0.8;
+      border-radius: 7px;
+    }
+  }
+  .footer {
+    border-top: 1px solid grey;
+    .footer-top {
+      background-color: #100d08c0 !important;
+      color: rgb(182, 182, 182);
+    }
+    .footer-bottom {
+      background-color: #31291dc0 !important;
+      color: rgb(182, 182, 182);
+    }
+  }
+  // Shop Component start
+  .top-filter-part {
+    .nameFilter {
+      .filterText {
+        color: rgb(182, 182, 182) !important;
+      }
+    }
+    .dropFilter{
+        p{
+            color: rgb(182, 182, 182) !important;
+
+        }
+    }
+  }
+  // Shop Component end
+
+  // About Component start
+  .who-are-we {
+    .text-part {
+      h2 {
+        color: rgb(182, 182, 182) !important;
+      }
+    }
+  }
+  .enzy-committed {
+    .head {
+      color: rgb(182, 182, 182) !important;
+    }
+  }
+  .ceo-part {
+    .desc {
+      color: rgb(182, 182, 182) !important;
+    }
+    .name {
+      color: rgb(182, 182, 182) !important;
+    }
+    .company {
+      color: rgb(182, 182, 182) !important;
+    }
+  }
+  .executive-direction {
+    .head-part {
+      h2 {
+        color: rgb(182, 182, 182) !important;
+      }
+    }
+    .executive-card {
+      .text-part {
+        .name {
+          color: #906813;
+        }
+      }
+    }
+  }
+  // About Component end
+
+  // Contact Component start
+
+  .contactComponent {
+    .contact {
+      .hero-part {
+        background-color: #1d1c1c;
+        border-bottom: 1px solid rgb(55, 55, 55);
+        h2 {
+          color: rgb(182, 182, 182) !important;
+        }
+      }
+    }
+    .form-part {
+      .info-part {
+        color: rgb(182, 182, 182) !important;
+        i {
+          color: rgb(182, 182, 182) !important;
+        }
+      }
+      .input-parts {
+        color: rgb(182, 182, 182) !important;
+        button {
+          background-color: rgb(12, 7, 7);
+          border: 1px solid rgb(32, 32, 32) !important;
+        }
+      }
+    }
+  }
+
+  // Contact Component end
+
+  // Blog Component start
+
+  .blogComponent {
+    h1 {
+      color: rgb(182, 182, 182) !important;
+    }
+    .myblogcard {
+      .card-body {
+        .date-time {
+          color: rgb(112, 110, 110);
+        }
+        .card-title {
+          color: rgb(182, 182, 182);
+        }
+        .card-text {
+          color: rgb(145, 145, 145);
+        }
+        .author {
+          color: rgb(146, 143, 143);
+        }
+      }
+    }
+  }
+
+  // Blog Component end
+
+  // Login Component start
+
+  .loginComponent {
+    .form {
+      .form-label {
+        color: rgb(184, 181, 181);
+      }
+    }
+  }
+
+  // Login Component end
+
+  // Cart Component start
+
+  .cartComponent,
+  .wishlistComponent {
+    .cart,
+    .deleteAll {
+      color: rgb(184, 181, 181);
+    }
+    .mycard {
+      .text-part {
+        .top-text {
+          .name {
+            color: rgb(124, 123, 123);
+          }
+          .desc {
+            color: rgb(184, 181, 181);
+          }
+          .brand {
+            color: rgb(124, 123, 123);
+          }
+        }
+        .product-price {
+          .button-part,
+          .productPrice {
+            color: rgb(184, 181, 181);
+          }
+          button {
+            color: rgb(124, 123, 123) !important;
+          }
+        }
+      }
+    }
+  }
+  .all-price-part {
+    background-color: rgb(159, 146, 146);
+  }
+  // Cart Component end
+
+  // adminLogin Component start
+  .adminLoginComponent {
+    .login {
+      .form-label {
+        color: rgb(124, 123, 123) !important;
+      }
+    }
+  }
+  // adminLogin Component end
+
+
+  // shopDetailCard Component start
+  .shopDetailCard{
+        .head-part{
+            background-color: #5d5c5c;
+            // border-bottom: 1px solid gray;
+            a,p{
+                margin: 0;
+                color: rgb(44, 43, 43) !important;
+            }}
+            .myCard{
+            .text-part{
+                .name{
+                    color: rgb(181, 181, 181) !important;
+
+                }
+                .detailAbout-card{
+                    .sku{
+                        color: rgb(124, 123, 123) !important;
+    
+                    }
+                    .share{
+                        color: rgb(124, 123, 123) !important;
+                        p,i,a{
+                        color: rgb(124, 123, 123) !important;
+                        }
+                    }
+                }
+                .price{
+                    color: rgb(181, 181, 181) !important;
+
+                }
+                .material{
+                    color: rgb(124, 123, 123) !important;
+
+                }
+
+                .addtocart{
+                    background-color: green;
+                }
+                .categories,.tags{
+                    span{
+                        color:#906813;
+                    }
+                }
+            }
+            }
+    }
+  // shopDetailCard Component end
+
+  
+  // admin Component end
+    
+    .admin{
+      .myadmintable{
+        th{
+          color:rgb(213, 211, 211) !important;
+        }
+        .myadmin{
+          td{
+            color:gray !important;
+          }
+        }
+      }
+    }  
+
+  // admin Component end
+
+  // dashboard Component start
+  .dashboard{
+    .headtext{
+      color:rgb(202, 199, 199) !important;
+    }
+    th{
+      color:rgb(202, 199, 199) !important;
+      
+    }
+    td{
+      color:rgb(148, 148, 148) !important;
+
+    }
+  }
+  // dashboard Component end
+}

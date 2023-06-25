@@ -1,0 +1,201 @@
+.shopComponent{
+    .hero{
+        width: 100%;
+        height: 90vh;
+        background-image:url('../img/about-hero-bg.jpg') ;
+        // background-image:url('https://images.unsplash.com/photo-1557750636-276cf67aeb5d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTE2fHxzbmVha2VyJTIwaGVyb3xlbnwwfDB8MHx8fDA%3D&auto=format&fit=crop&w=400&q=60') ;
+        background-size: cover;
+        background-position: center;
+        background-attachment: scroll;
+    
+        .text-part{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 90vh;
+            width: 100%;
+            .center{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                width: 50%;
+                height: 50%;
+                p{
+                    color:white;
+                    font-weight: 600;
+                    margin: 0;
+    
+                    // font-family: 'Poppins', sans-serif;
+                    span{
+                        transition: 0.3s;
+                        &:hover{
+                            cursor: pointer;
+                            color:rgb(238, 172, 73);
+                        }
+                    }
+                }
+                h2{
+                    color:white;
+                    font-size: 56px;
+                    margin: 0;
+    
+                }
+            }
+        }
+    }
+    .card-section{
+        margin: 40px 0;
+        margin-bottom: 100px;
+        .top-filter-part{
+            .filterText{
+                color:black;
+                font-weight: 600;
+                font-size: 20px;
+                cursor: pointer;
+                &:hover{
+                    color:#5E3941;
+                }
+                .active{
+                    color:yellow;
+                }
+            }
+            .categories-drop{
+                height: 80px;
+                width: 100%;
+                background-color: aqua;
+                
+            }
+            .nameFilter{
+                display: flex;
+                width: 70%;
+                // border: 2px solid blue;
+                justify-content: space-between;
+            }
+            .dropFilter{
+                width: 100%;
+                display: flex;
+                align-items: center;
+                // justify-content: center;
+                // background-color: pink;
+                .checkboxFilter{
+                    // height: 40px;
+                    // width: 20%;
+                    display: flex;
+                    align-items: center;
+                    margin-right: 20px;
+                    input{
+                        margin-right: 5px;
+                    }
+                    p{
+                        // width: 50%;
+                        // width: 100%;
+                        font-size: 15px;
+                        margin: 0;
+                    }
+                }
+                .color-part{
+                    display: flex;
+                    .circle{
+                        position: relative;
+                        width: 40px;
+                        height: 40px;
+                        border-radius: 50%;
+                        margin-right: 6px;
+                        transition: 0.3s;
+                        &:hover{
+                            cursor: pointer;
+                            transform: scale(1.1);
+                        }
+                    }
+                    .black{
+                        background-color: black;
+                    }
+                    .blue{
+                        background-color: #0D004C;
+                    }
+                    .light-blue{
+                        background-color:#95A9D3;
+                    }
+                    .brown{
+                        background-color: #4E3F36;
+                    }
+                    .red{
+                        background-color: #5E3941;
+                    }
+                }
+                
+                // --------------
+                .myrangediv{
+                    margin-top: 25px;
+                    position: relative;
+                    width: 100% !important;
+                    .myrange{
+                        width: 100% !important;
+                        -webkit-appearance: none;
+                        appearance: none;
+                        height: 0.1rem;
+                        border-radius: 0.25rem;
+                        background-color:rgb(104,44,56);
+                        &::-webkit-slider-thumb {
+                            -webkit-appearance: none;
+                            appearance: none;
+                            width: 1rem;
+                            height: 1rem;
+                            // background-color: $background-color_1;
+                            background-color: rgb(104,44,56);
+                            border: 2px solid var(--primary);
+                            border-radius: 50%;
+                            cursor: pointer;
+                        }
+                        &::-moz-range-thumb {
+                            -webkit-appearance: none;
+                            appearance: none;
+                            width: 1rem;
+                            height: 1rem;
+                            border: 2px solid var(--primary);
+                            // background-color: $background-color_1;
+                            background-color: gray;
+                            border-radius: 50%;
+                            cursor: pointer;
+                        }
+                        
+                    }
+                    .slider-label {
+                        position: absolute;
+                        top: -2.25rem;
+                        left: calc(-1rem/2);
+                        width: 2rem;
+                        height: 2.25rem;
+                        // background-color: $background-color_3;
+                        background-color: rgb(227,89,116);
+                        clip-path: polygon(0 0, 100% 0%, 100% 78%, 50% 100%, 0 78%);
+                        display: flex;
+                        justify-content: center;
+                        padding-top: 0.25rem;
+                        font: 900 0.85rem helvetica,sans-serif;
+                        color: black;
+                    }
+                    .slider-progress {
+                        position: absolute;
+                        width: 0;
+                        height: 0.1rem;
+                        border-radius: 0.25rem;
+                        // background-color: $background-color_3;
+                        background-color: rgb(227,89,116);
+                    }
+
+                }
+
+            
+                // --------------
+            }
+        }
+        .body-card-part{
+            margin-top: 50px;
+            // img{
+            //     width: 40%;
+            // }
+        }
+    }
+}

@@ -1,0 +1,26 @@
+// .admin{
+// }
+
+.myadmintable{
+    overflow-x: scroll;
+    overflow-x: hidden;
+}
+
+.myadmin{
+    img{
+
+        width: 15% !important;
+        height: 15% !important;
+    }
+    @media only screen and (max-width:800px) {
+       img{
+        width: 100% !important;
+        height: 100% !important; 
+       }   
+    }
+    
+}
+
+.mycontainer{
+    overflow-x: scroll;
+}

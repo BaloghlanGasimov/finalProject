@@ -1,0 +1,98 @@
+.footer{
+    .footer-top{
+     display: flex;
+     width: 100%;
+     // height: 60vh;
+     height: auto;
+     background-color: rgb(161, 161, 161);
+     .logo-part{
+         display: flex;
+         // padding-top: 40px;
+         margin-top: 100px;
+ 
+         width: 10%;
+         height: 50vh;
+         justify-content: center;
+         align-items: start;
+         img{
+             width: 180px;
+             transform: rotate(270deg);
+         }
+         
+     }
+     .links{
+         padding-top: 40px;
+         width: 90%;
+         .about{
+             ul{
+                 list-style-type: none;
+                 li{
+                     font-size: 18px;
+                     margin:20px 10px;
+                 list-style-type: none;
+                 i{
+                     margin-right: 13px;
+                     font-size: 16px;
+                 }
+         
+                 }
+             }
+         }
+         .social-links{
+             ul{
+                 list-style-type: none;
+                 .head{
+                     font-weight: 600;
+                     font-size: 18px;
+                     padding-bottom: 10px;
+                 }
+                 li{
+                     font-size: 15px;
+                     margin:12px 10px;
+                 list-style-type: none;
+                 transition: 0.2s;
+                 &:hover{
+                     cursor: pointer;
+                     color:#F9AC00;
+                 }
+                 i{
+                     margin-right: 13px;
+                     font-size: 16px;
+                 }
+         
+                 }
+             }
+         }
+     }
+     
+     @media only screen and (max-width:992px) {
+         // .footer{
+             // display: flex;
+             flex-wrap: wrap !important;
+             .logo-part{
+                 width: 100% !important;
+                 height: auto;
+                 padding-top:30px;
+                 margin-bottom: 0px !important;
+                 margin-top: 0px !important;
+                 img{
+                     transform: rotate(0deg) !important;
+                 }
+             }
+         // }
+     }
+    }
+     .footer-bottom{
+         width: 100%;
+         // padding: 20px;
+         display: flex;
+         align-items:center;
+         height: 6vh;
+         background-color: #6a6a6a;
+         p{
+             color:rgb(213, 212, 212);
+             margin: 0;
+             padding-left:25px ;
+         }
+     }
+ }

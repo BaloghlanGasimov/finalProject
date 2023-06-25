@@ -1,0 +1,23 @@
+.login{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    // background-color: red !important;
+}
+.info{
+
+    display: flex;
+    justify-content: center;
+    // width: 80%;
+    padding: 10px;
+    border-radius: 10px;
+    color:whitesmoke;
+    // -webkit-text-stroke: 1px;
+}
+.yellow-color{
+    background-color: rgb(201, 201, 31) !important  ;
+
+}

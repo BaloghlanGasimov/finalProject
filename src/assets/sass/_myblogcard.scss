@@ -1,0 +1,43 @@
+.myblogcard{
+    margin-bottom: 20px;
+    // padding: 10px 0;
+    .date{
+        display: flex;
+        .date-time{
+            margin-right: 4px;
+            font-size: 13px;
+            color:rgb(88, 88, 88);
+        }
+        .comment{
+            margin-right: 4px;
+            font-size: 13px;
+            color:rgb(88, 88, 88);
+
+        }
+        .author{
+            font-size: 13px;
+            color:rgb(88, 88, 88);
+        }
+    }
+    h5{
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-size: 14px;
+        font-weight: 700;
+    }
+    .desc{
+        font-size: 14px;
+        color:rgb(58, 58, 58);
+        a{
+            text-decoration: none;
+            color:rgb(199, 142, 18);
+            font-size: 11px;
+            font-weight: 600;
+        }
+    }
+}
+.myblogcardleft{
+    margin-top: 8px;
+    padding-bottom:30px;
+    border-bottom:1px dashed #333333 ;
+}

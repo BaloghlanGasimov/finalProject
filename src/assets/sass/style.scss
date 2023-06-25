@@ -1,0 +1,27 @@
+@import 'dark';
+@import 'light';
+@import 'home';
+@import 'footer';
+@import 'header';
+@import 'login';
+@import 'adminlogin';
+@import 'cart';
+@import 'singleadmin';
+@import 'aboutComponent';
+@import 'contactComponent';
+@import 'shopComponent';
+@import 'shopDetailCard';
+@import 'myblogcard';
+@import 'newArrivalsCard';
+
+
+.row{
+    margin: 0;
+}
+
+.myborder{
+    border: 3px solid yellow;
+}
+
+
+

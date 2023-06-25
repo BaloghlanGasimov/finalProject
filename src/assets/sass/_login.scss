@@ -1,0 +1,60 @@
+.loginComponent{
+    .alert{
+        display: flex;
+        justify-content: center;
+        padding: 4px 0;
+        p{
+            margin: 0;
+            font-size: 20px;
+            color:white;
+        }
+    }
+    
+    .form{
+        margin: 30px 0  ;
+        width: 100%;
+        // height: 40vh;
+        height: auto;
+        padding:40px 0;
+        .form-con{
+            // display: flex;
+            // flex-direction: column;
+            // align-items: center;
+            // justify-content: center;
+            input{
+                height: 50px;
+            }
+            .password-input{
+                display: flex;
+                border: 1px solid #c4c3c3;
+                border-radius: 7px;
+                input{
+                    border: none;
+                }
+                button{
+                    padding: 0 20px;
+                    font-size: 16px;
+                    border: none;
+                    background-color:rgba(0, 124, 0, 0.467);
+                }
+            }
+        }
+    }
+}
+.true-part{
+    a{
+        text-decoration:none;
+        // width: 250px !important;
+        // height: 150px !important;
+        padding: 10px 20px;
+        background-color: rgb(14, 206, 14);
+        border-radius: 10px;
+        transition: 0.2s;
+        font-size: 16px;
+        color:white;
+        margin-right: 10px;
+        &:hover{
+            background-color: rgb(7, 149, 7);
+        }
+    }
+}
